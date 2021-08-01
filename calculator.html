@@ -12,7 +12,7 @@
      }
      .border
      {
-         border:2px solid rgb(59, 142, 145) ;
+         border:2px solid rgb(69, 175, 179) ;
          margin-top: 10%;
 
          margin-left: 30%;
@@ -21,9 +21,11 @@
      }
      #clear
      {
-      width: 410px;
+         font-size: 20px;
+         font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
       height: 30px;
-      background-color: rgb(146, 63, 63)
+      background-color: rgb(168, 70, 70)
      }
      #b
     {
@@ -34,10 +36,11 @@
      #text
      {
         border: none;
-       width: 410px;
-       height: 25px;
+       width: 100%;
+       height: 35px;
        border-radius: 1px;
        margin-bottom: 1px;
+       border: none;
      }
 
      #btn
@@ -48,12 +51,18 @@
         width: 100px;
         height: 40px;
         margin-top: 1px;
+        margin-left: 2px;
 
       border: none;
+     }
+     #clear:hover
+     {
+         background-color: rgb(255, 0, 0);
      }
      #btn:hover
      {
          background-color: rgb(10, 64, 226);
+
      }
     </style>
 </head>
@@ -87,7 +96,7 @@
               <input type="button" name="button" id="btn" value="=">
            </div>
            <div >
-               <input type="button" name="button" id="clear" value="clear" style="border: none;">
+               <input type="button" name="button" id="clear" value="Clear" style="border: none;">
            </div>
         </div>
      </div>
