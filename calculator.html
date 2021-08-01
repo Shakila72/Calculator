@@ -15,59 +15,82 @@
          border:2px solid rgb(59, 142, 145) ;
          margin-top: 10%;
 
-         margin-left: 20%;
-         margin-right: 20%;
-
-
-     }
-     #box
-     {
-       width: 500px;
-     }
-     #sign
-     {
-         border-style: none;
-         
+         margin-left: 30%;
+         margin-right: 30%;
 
      }
-     #sign1
+     #clear
      {
-         bor
+      width: 410px;
+      height: 30px;
+      background-color: rgb(146, 63, 63)
+     }
+     #b
+    {
+        border-style: solid;
+    border-width: 30px 20px;
+    border-color: rgb(56, 119, 90);
+    }
+     #text
+     {
+        border: none;
+       width: 410px;
+       height: 25px;
+       border-radius: 1px;
+       margin-bottom: 1px;
+     }
+
+     #btn
+     {background-color: rgb(85, 140, 241);
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 4px;
+        width: 100px;
+        height: 40px;
+        margin-top: 1px;
+
+      border: none;
+     }
+     #btn:hover
+     {
+         background-color: rgb(10, 64, 226);
      }
     </style>
 </head>
 <body id="background">
-    <div class="border">
-      <div id="box">
-          <input type="text" name="text" id="text">
-      </div>
-      <div>
-        <input type="number" name="number" id="number" value="1">
-        <input type="number" name="number" id="number" value="2">
-        <input type="number" name="number" id="number" value="3">
-        <input type="button" name="button" id="sign" value="*">
-         <div>
-            <input type="number" name="number" id="number" value="4">
-            <input type="number" name="number" id="number" value="5">
-            <input type="number" name="number" id="number" value="6">
-            <input type="button" name="button" id="sign" value="/">
-         </div>
-         <div>
-            <input type="number" name="number" id="number" value="7">
-            <input type="number" name="number" id="number" value="8">
-            <input type="number" name="number" id="number" value="9">
-            <input type="button" name="button" id="sign" value="-">
-         </div>
-         <div>
-            <input type="number" name="number" id="sign1" value="0">
-            <input type="number" name="number" id="sign1" value=".">
-            <input type="number" name="number" id="sign1" value="+">
-            <input type="button" name="button" id="sign1" value="=">
-         </div>
-         <div>
-             <input type="button" name="button" id="clear" value="clear">
-         </div>
-      </div>
+    <div class="border" >
+     <div id="b">
+        <div >
+            <input type="text" name="text" id="text" >
+        </div>
+        <div>
+          <input type="button" name="button" id="btn" value="1">
+          <input type="button" name="button" id="btn" value="2">
+          <input type="button" name="button" id="btn" value="3">
+          <input type="button" name="button" id="btn" value="*">
+           <div>
+              <input type="button" name="button" id="btn" value="4">
+              <input type="button" name="button" id="btn" value="5">
+              <input type="button" name="button" id="btn" value="6">
+              <input type="button" name="button" id="btn" value="/">
+           </div>
+           <div>
+              <input type="button" name="button" id="btn" value="7">
+              <input type="button" name="button" id="btn" value="8">
+              <input type="button" name="button" id="btn" value="9">
+              <input type="button" name="button" id="btn" value="-">
+           </div>
+           <div>
+              <input type="button" name="button" id="btn" value="0">
+              <input type="button" name="button" id="btn" value=".">
+              <input type="button" name="button" id="btn" value="+">
+              <input type="button" name="button" id="btn" value="=">
+           </div>
+           <div >
+               <input type="button" name="button" id="clear" value="clear" style="border: none;">
+           </div>
+        </div>
+     </div>
     </div>
 </body>
 </html>
